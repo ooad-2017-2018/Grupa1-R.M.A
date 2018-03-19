@@ -57,7 +57,7 @@ Za one koji često putuju tu je VIP klub sa dodatnim pogodnostima.
   - Slanje obavijesti na obavještajni panel glavnog meni-a sistema, pristupan svim korsnicima
   - Pregled statistika letova i korisinika
   
-**Za supervizore:**
+**Za administratora:**
   - Puna kontrola nad sistemom za svrhu održavanja sistema
   - Upravljanje bazom podataka uz dopuštenje supervizora
   
