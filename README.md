@@ -1,4 +1,4 @@
-# Grupa1- R.M.A.
+# :globe_with_meridians: R.M.A.
 
 ## Članovi tima
 - Appa Bugis Ridvan
@@ -12,7 +12,7 @@ Air-X je vrhunski sistem koji nudi uslugu korisničkog interface-a aviokompanije
 
 Rezervacija letova te kupovina karti za iste sa ovim sistemom postaje elektronska, ćime se odstranjuje potreba za salterima i dolazi do uštede radne *snage, vremena i novca*.
 
-## Procesi
+## Procesi :eight_pointed_black_star: 
 
 Pretrazivanje letova je znatno lakse, sa mnogobrojnim filterima i dodatnom interaktivnom mapom svijeta koja se moze koristiti pored tradicionalnog type-and-search pristupa za pretragu letova. Nakon online plaćanja na mail će biti dostavljena pdf verzija karte koja sadrži informacije o putniku i letu, te bar-kod za identifikaciju i potvrdu ulaska na let. Pored pdf verzije, dozvoljena je i fizička kopija za ulazak na let. Nakon što karta bude predstavljena odgovarajućem uposleniku, te je skenirana putem skenera, informacija da je klijent pristupio letu će biti poslana sistemu i ažurirana.
 
@@ -25,7 +25,7 @@ Supervizoru kompanijskog sistema Air-X će biti dostupno ažuriranje postojećih
 
 Za one koji često putuju tu je VIP klub sa dodatnim pogodnostima.
 
-## Funkcionalnosti
+## Funkcionalnosti :eight_pointed_black_star:
 **Za korisnike:**
   - Pretraga letova
   - Rezervacija i odgađanje rezervisanih letova
@@ -45,7 +45,7 @@ i još mnogo toga...
   - Dodavanje akcija, sniženja i posebnih ponuda
 i još mnogo toga...
 
-## Akteri
+## Akteri :eight_pointed_black_star:
 - **Posjetioc** - korisnik koji ima pristup osnovnim funkcionalnostima programa, tipa pregleda letova te trazenje istih (neregistrovan korisnik).
 - **Registrovan korisnik** - ima pristup svim korisnickim funkcionalnostima.
     - **Pojedinac** - user profil namjenjen da ga koristi jedna osoba za licne potrebe.
