@@ -5,7 +5,7 @@
 - Fišić Mak
 - Jajčanin Ajdin
 
-![logo](https://github.com/ooad-2017-2018/Grupa1-R.M.A/blob/master/resursi/logo.png)
+![logo](https://github.com/ooad-2017-2018/Grupa1-R.M.A/blob/master/Resursi/logo.png)
 
 ## Air-X :airplane:
 Air-X je vrhunski sistem koji nudi uslugu korisničkog interface-a aviokompanije, te pruža različite pogodnosti i olakšice klijentima pri korištenju usluga kompanije.
