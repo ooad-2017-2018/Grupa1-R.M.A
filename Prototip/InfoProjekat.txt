@@ -1,0 +1,2 @@
+Prototipi su radjeni u programu Mockplus
+Svi su prototipi u zajednickom fajlu, takva je struktura projekta
