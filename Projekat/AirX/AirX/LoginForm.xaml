@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="AirX.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AirX"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="12,17,16,10" Grid.RowSpan="2">
+
+            <TextBlock Text="Login " Foreground="Black" FontSize="40" Margin="0,0,24,0"/>
+
+            <TextBlock Text="User Name" Foreground="Black" FontSize="30"/>
+            <TextBox  BorderBrush="LightGray" Name="UserName"  Margin="0,0,0,0"/>
+
+            <TextBlock  Foreground="Black" Text="Password" FontSize="30"/>
+            <PasswordBox BorderBrush="LightGray" Name="PassWord"  Margin="0,0,0,0" />
+
+            <Button Content="Login" Background="#FF30DABB" Name="Login" Margin="0,9,0,0" HorizontalAlignment="Right" Width="194" />
+            <Button Content="Return" Background="#FF30DABB" x:Name="SignUp" Margin="0,9,0,0" HorizontalAlignment="Right" Width="194"/>
+
+        </StackPanel>
+
+    </Grid>
+</Page>
