@@ -98,6 +98,19 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Administrator.cs" />
+    <Compile Include="Model\Agencija.cs" />
+    <Compile Include="Model\Clan.cs" />
+    <Compile Include="Model\Class1.cs" />
+    <Compile Include="Model\Karta.cs" />
+    <Compile Include="Model\Let.cs" />
+    <Compile Include="Model\NeregistrovaniKorisnik.cs" />
+    <Compile Include="Model\Pojedinac.cs" />
+    <Compile Include="Model\Posjetilac.cs" />
+    <Compile Include="Model\Recepcija.cs" />
+    <Compile Include="Model\Rezervacija.cs" />
+    <Compile Include="Model\Supervizor.cs" />
+    <Compile Include="Model\VIPClan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +159,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.1</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
