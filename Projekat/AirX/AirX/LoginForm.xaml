@@ -22,7 +22,7 @@
             <TextBlock  Foreground="Black" Text="Password" FontSize="30"/>
             <PasswordBox BorderBrush="LightGray" Name="PassWord"  Margin="0,0,0,0" />
 
-            <Button Content="Login" Background="#FF30DABB" Name="Login" Margin="0,9,0,0" HorizontalAlignment="Right" Width="194" />
+            <Button Content="Login" Background="#FF30DABB" Name="LoginBut" Margin="0,9,0,0" HorizontalAlignment="Right" Width="194" />
             <Button Content="Return" Background="#FF30DABB" x:Name="SignUp" Margin="0,9,0,0" HorizontalAlignment="Right" Width="194"/>
 
         </StackPanel>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AirX.Model
 {
     class Karta
-    {
+    {/*
         private string barkodId;
         private Korisnik korisnsik;
         private Let let;
@@ -38,6 +38,6 @@ namespace AirX.Model
         }
 
         private Registrovani_Korisnik registrovani_Korisnik;
-
+        */
     }
 }

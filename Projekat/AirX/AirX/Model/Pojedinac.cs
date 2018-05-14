@@ -13,7 +13,7 @@ namespace AirX.Model
         private string adresa;
         private string drzava;
         private string grad;
-        private enum Spol;
+        private bool spol;
 
         public Boolean GetDaLiJeVIP()
         {
@@ -51,10 +51,10 @@ namespace AirX.Model
         {
             this.grad = grad;
         }
-        public enum GetSpol() {
+        public bool GetSpol() {
             return this.spol;
         }
-        public void SetSpol(ref enum spol) {
+        public void SetSpol(ref bool spol) {
 
             this.spol = spol;
 

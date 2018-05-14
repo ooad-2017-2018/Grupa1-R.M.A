@@ -5,9 +5,71 @@
     xmlns:local="using:AirX"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  
+    <NavigationView x:Name="NavView"
+                
+                 Grid.RowSpan="2" VerticalAlignment="Stretch"
+                >
 
-    </Grid>
+        <NavigationView.AutoSuggestBox>
+            <AutoSuggestBox x:Name="ASB" QueryIcon="Find"/>
+        </NavigationView.AutoSuggestBox>
+
+        <NavigationView.MenuItems>
+
+            <NavigationViewItemSeparator/>
+            <NavigationViewItemSeparator/>
+
+            <NavigationViewItemHeader Content="Main pages"/>
+            <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE10F;"/>
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Uid="AppsNavItem" Icon="AllApps" Content="Discover" Tag="discover"/>
+            <NavigationViewItem x:Uid="GamesNavItem" Icon="Video" Content="Book" Tag="book"/>
+            <NavigationViewItem x:Uid="MusicNavItem" Icon="Audio" Content="Vip Clup" Tag="vipclub"/>
+
+            <NavigationViewItemSeparator/>
+            <NavigationViewItemSeparator/>
+
+            <NavigationViewItemHeader Content="Admin controls"/>
+        </NavigationView.MenuItems>
+            
+        <NavigationView.HeaderTemplate>
+            <DataTemplate>
+                <Grid Margin="24,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Style="{StaticResource TitleTextBlockStyle}"
+                        FontSize="28"
+                        VerticalAlignment="Center"
+                        Text="Welcome"/>
+                    <CommandBar Grid.Column="1"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
+                        <AppBarButton Label="Refresh" Icon="Refresh"/>
+                    </CommandBar>
+                </Grid>
+            </DataTemplate>
+        </NavigationView.HeaderTemplate>
+
+
+        <Frame x:Name="ContentFrame" Margin="24" >
+            
+            <Frame.ContentTransitions>
+                
+                <TransitionCollection>
+                    <NavigationThemeTransition/>
+                </TransitionCollection>
+            </Frame.ContentTransitions>
+        </Frame>
+
+    </NavigationView>
 </Page>

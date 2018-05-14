@@ -11,13 +11,13 @@ namespace AirX.Model
         private string username;
         private string password;
         private string email;
-        private Image slika;
+        //private Image slika;
         private Let letovi;
-        private Rezeravcija rezervacije;
-        private Notifikacija notifikacije;
+        private Rezervacija rezervacije;
+       // private Notifikacija notifikacije;
         private string opisProfila;
         private string brojTelefona;
-        private tip tipKorisnika;
+       // private tip tipKorisnika;
 
         public string GetUsername()
         {
@@ -43,7 +43,7 @@ namespace AirX.Model
         {
             this.email = email;
         }
-        public Image GetSlika()
+        /* public Image GetSlika()
         {
             return this.slika;
         }
@@ -51,6 +51,7 @@ namespace AirX.Model
         {
             this.slika = slika;
         }
+        */
         public Let GetLetovi()
         {
             return this.letovi;
@@ -59,18 +60,18 @@ namespace AirX.Model
         {
             this.letovi = letovi;
         }
-        public Rezeravcija GetRezervacije()
+        public Rezervacija GetRezervacije()
         {
             return this.rezervacije;
         }
-        public Notifikacija GetNotifikacije()
+        /*public Notifikacija GetNotifikacije()
         {
             return this.notifikacije;
         }
         public void SetNotifikacije(ref Notifikacija notifikacije)
         {
             this.notifikacije = notifikacije;
-        }
+        }*/
         public string GetOpisProfila()
         {
             return this.opisProfila;
@@ -87,7 +88,7 @@ namespace AirX.Model
         {
             this.brojTelefona = brojTelefona;
         }
-        public Registrovani_Korisnik()
+        /*public Registrovani_Korisnik()
         {
             throw new System.Exception("Not implemented");
         }
@@ -98,7 +99,7 @@ namespace AirX.Model
         public void SetTipKorisnika(ref tip tipKorisnika)
         {
             this.tipKorisnika = tipKorisnika;
-        }
+        }*/
         public string RezervacijaLeta(ref object rezervacija)
         {
             throw new System.Exception("Not implemented");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirX.Model
 {
-    class Agencija : Registrovani_Korisnik
+    class Agencija : Pojedinac
     {
         private string imeAgencije;
 
@@ -26,4 +26,4 @@ namespace AirX.Model
     }
 
 }
-}
+

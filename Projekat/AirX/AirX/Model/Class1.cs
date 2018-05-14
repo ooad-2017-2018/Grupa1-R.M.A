@@ -7,24 +7,24 @@ using System.Threading.Tasks;
 namespace AirX.Model
 {
     class AirX
-    {
-        private static List<Korisnik> = new List<Korisnik>();
+    {   /*
+        private static List<Pojedinac> korisnici = new List<Pojedinac>();
         private static List<Supervizor> = new List<Supervizor>();
         private static Administrator = new Administrator();
-        private static List<Recepcija> = new List<Recepcija>();
-        private static List<Let> = new List<Let>();
+        private static List<Recepcija>  = new List<Recepcija>();
+        private static List<Let> letovi = new List<Let>();
 
-        public RegistrovaniKorisnik GetKorisnici()
+        public Pojedinac GetKorisnici()
         {
-            return this.korisnici;
+            return korisnici;
         }
-        public void SetKorisnici(ref RegistrovaniKorisnik korisnici)
+        public void SetKorisnici(ref Pojedinac korisnic)
         {
-            this.korisnici = korisnici;
+            korisnici = korisnic;
         }
-        public Let GetLetovi()
+        public List<Let> GetLetovi()
         {
-            return this.letovi;
+            return letovi;
         }
         public void SetLetovi(ref Let letovi)
         {
@@ -54,7 +54,7 @@ namespace AirX.Model
         {
             this.recepcije = recepcije;
         }
-        
+        */
 
 
     }
