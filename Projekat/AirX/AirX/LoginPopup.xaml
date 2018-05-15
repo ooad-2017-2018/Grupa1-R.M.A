@@ -14,12 +14,29 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Margin="12,17,16,10" Grid.RowSpan="2">
+        <StackPanel 
+            Grid.Row="0" 
+            Margin="12,17,16,10" 
+            Grid.RowSpan="2"
+        >
 
-            <TextBlock Text="Login " Foreground="Black" FontSize="40" Margin="0,0,24,15"/>
+            <TextBlock 
+                Text="Login " 
+                Foreground="Black" 
+                FontSize="40" 
+                Margin="0,0,24,15"
+            />
 
-            <TextBlock Text="User Name" Foreground="Black" FontSize="30"/>
-            <TextBox  BorderBrush="LightGray" Name="UserName"  Margin="0,0,0,10"/>
+            <TextBlock 
+                Text="User Name" 
+                Foreground="Black" 
+                FontSize="30"
+            />
+            <TextBox 
+                BorderBrush="LightGray" 
+                Name="UserName"  
+                Margin="0,0,0,10"
+            />
 
             <TextBlock  Foreground="Black" Text="Password" FontSize="30"/>
             <PasswordBox BorderBrush="LightGray" Name="PassWord"  Margin="0,0,0,10" />

@@ -72,7 +72,10 @@
                 <Image Source="Assets/5.png" 
                        VerticalAlignment="Stretch"
                        HorizontalAlignment="Stretch"/>
-                <TextBlock Text="Visit Sarajevo" HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                <TextBlock 
+                    Text="Visit Sarajevo" 
+                    HorizontalAlignment="Center"  
+                    VerticalAlignment="Center" />
             </Grid>
 
             <Grid Grid.Row="2" Background="AliceBlue" >
