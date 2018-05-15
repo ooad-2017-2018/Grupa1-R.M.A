@@ -8,28 +8,32 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <NavigationView x:Name="NavView"
-                
-                 Grid.RowSpan="2" VerticalAlignment="Stretch"
-                >
+    <NavigationView 
+        x:Name="NavView"
+        Grid.RowSpan="2" 
+        VerticalAlignment="Stretch"
+    >
+
+
 
         <NavigationView.AutoSuggestBox>
             <AutoSuggestBox x:Name="ASB" QueryIcon="Find"/>
         </NavigationView.AutoSuggestBox>
 
-        <NavigationView.MenuItems>
-
+        
+        <NavigationView.MenuItems >
+            
             <NavigationViewItemSeparator/>
             <NavigationViewItemSeparator/>
 
             <NavigationViewItemHeader Content="Main pages"/>
-            <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home">
+            <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home" Tapped="Navigate">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE10F;"/>
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
-            <NavigationViewItem x:Uid="AppsNavItem" Icon="AllApps" Content="Discover" Tag="discover"/>
-            <NavigationViewItem x:Uid="GamesNavItem" Icon="Video" Content="Book" Tag="book"/>
+            <NavigationViewItem x:Uid="AppsNavItem" Icon="Globe" Content="Discover" Tag="discover" Tapped="Navigate" />
+            <NavigationViewItem x:Uid="GamesNavItem" Icon="Map" Content="Book" Tag="book"/>
             <NavigationViewItem x:Uid="MusicNavItem" Icon="Audio" Content="Vip Clup" Tag="vipclub"/>
 
             <NavigationViewItemSeparator/>
@@ -38,9 +42,9 @@
             <NavigationViewItemHeader Content="Admin controls"/>
         </NavigationView.MenuItems>
 
-        <NavigationView.HeaderTemplate>
-            <DataTemplate>
-                <Grid Margin="24,10,0,0">
+        <NavigationView.HeaderTemplate >
+            <DataTemplate >
+                <Grid Margin="24,10,0,0" >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition/>
@@ -54,6 +58,7 @@
                         VerticalAlignment="Top"
                         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
                         <AppBarButton Label="Refresh" Icon="Refresh"/>
+                        <AppBarButton Label="Login" Icon="OtherUser" Click="OnLoginClick"/>
                     </CommandBar>
                 </Grid>
             </DataTemplate>
