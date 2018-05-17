@@ -22,15 +22,14 @@
             <NavigationViewItemSeparator/>
 
             <NavigationViewItemHeader Content="Admin controls"/>
-            <NavigationViewItem x:Uid="HomeNavItem" Content="Search users" Tag="home" Tapped="Navigate">
+            <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home" >
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE10F;"/>
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
-            <NavigationViewItem x:Uid="AppsNavItem" Icon="Globe" Content="Add users" Tag="discover" Tapped="Navigate" />
-            <NavigationViewItem x:Uid="GamesNavItem" Icon="Map" Content="View users" Tag="book"/>
-            <NavigationViewItem x:Uid="MusicNavItem" Icon="Audio" Content="View database" Tag="vipclub"/>
-
+            <NavigationViewItem x:Uid="AppsNavItem" Icon="AddFriend" Content="Add users" Tag="add" Tapped="Navigate" />
+            <NavigationViewItem x:Uid="GamesNavItem" Icon="People" Content="View users" Tag="view" Tapped="Navigate"/>
+            
             <NavigationViewItemSeparator/>
             <NavigationViewItemSeparator/>
 
@@ -46,13 +45,12 @@
                     <TextBlock Style="{StaticResource TitleTextBlockStyle}"
                         FontSize="28"
                         VerticalAlignment="Center"
-                        Text="Welcome"/>
+                        Text="Welcome, administrator"/>
                     <CommandBar Grid.Column="1"
                         HorizontalAlignment="Right"
                         VerticalAlignment="Top"
                         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
                         <AppBarButton Label="Refresh" Icon="Refresh"/>
-                        <AppBarButton Label="Login" Icon="OtherUser" Click="OnLoginClick"/>
                     </CommandBar>
                 </Grid>
             </DataTemplate>

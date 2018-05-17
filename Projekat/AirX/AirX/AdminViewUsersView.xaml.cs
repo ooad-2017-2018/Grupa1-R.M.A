@@ -20,28 +20,15 @@ namespace AirX
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class AdminPanel : Page
+    public sealed partial class AdminViewUsersView : Page
     {
-        public AdminPanel()
+        public AdminViewUsersView()
         {
             this.InitializeComponent();
         }
 
-        private void Navigate(object sender, RoutedEventArgs e)
+        private void NameQuerySubmited(SearchBox sender, SearchBoxQuerySubmittedEventArgs args)
         {
-            if (sender != null)
-            {
-                NavigationViewItem button = sender as NavigationViewItem;
-
-                if (button.Tag is "home")
-                    this.ContentFrame.Navigate(typeof(HomeView));
-
-                if (button.Tag is "add")
-                    this.ContentFrame.Navigate(typeof(AdminAddUserView));
-
-                if (button.Tag is "view")
-                    this.ContentFrame.Navigate(typeof(AdminViewUsersView));
-            }
 
         }
     }
