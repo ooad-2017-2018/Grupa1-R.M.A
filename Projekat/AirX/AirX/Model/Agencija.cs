@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace AirX.Model
 {
-    class Agencija : Pojedinac
+    class Agencija : User
     {
         private string imeAgencije;
 
-        public void SetImeAgencije(ref string imeAgencije)
+        public Agencija(string imeAgencije, string givenName, string surname, bool gender, DateTime birthDate, string birthPlace, string nationality, string physicalAdress, string phoneNumber, string userName, string email, string password) : base(givenName, surname, gender, birthDate, birthPlace, nationality, physicalAdress, phoneNumber, userName, email, password)
         {
-            this.imeAgencije = imeAgencije;
+            ImeAgencije = imeAgencije;
         }
+
+        public string ImeAgencije { get => imeAgencije; set => imeAgencije = value; }
+
+
         public string PosaljiZahtjevZaNovuDestinaciju(ref object image)
         {
             throw new System.Exception("Not implemented");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirX.Model
 {
-    class Posjetilac : Pojedinac
+    class Posjetilac : User
     {
         private string username;
         private string password;

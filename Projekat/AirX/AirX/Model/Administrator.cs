@@ -6,36 +6,12 @@ using System.Threading.Tasks;
 
 namespace AirX.Model
 {
-    class Administrator
+    class Administrator : User
     {
-        private string imeIPrezime;
-        private string username;
-        private string password;
+        public Administrator(string givenName, string surname, bool gender, DateTime birthDate, string birthPlace, string nationality, string physicalAdress, string phoneNumber, string userName, string email, string password) : base(givenName, surname, gender, birthDate, birthPlace, nationality, physicalAdress, phoneNumber, userName, email, password)
+        {
+        }
 
-        public string GetImeIPrezime()
-        {
-            return this.imeIPrezime;
-        }
-        public void SetImeIPrezime(ref string imeIPrezime)
-        {
-            this.imeIPrezime = imeIPrezime;
-        }
-        public string GetUsername()
-        {
-            return this.username;
-        }
-        public void SetUsername(ref string username)
-        {
-            this.username = username;
-        }
-        public string GetPassword()
-        {
-            return this.password;
-        }
-        public void SetPassword(ref string password)
-        {
-            this.password = password;
-        }
         public string ObrisiKorisnika(ref object registrovaniKorisnik)
         {
             throw new System.Exception("Not implemented");

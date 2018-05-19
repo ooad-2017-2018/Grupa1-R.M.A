@@ -115,12 +115,11 @@
     </Compile>
     <Compile Include="Model\Administrator.cs" />
     <Compile Include="Model\Agencija.cs" />
-    <Compile Include="Model\Clan.cs" />
-    <Compile Include="Model\Class1.cs" />
+    <Compile Include="Model\airxbaza.cs" />
     <Compile Include="Model\Karta.cs" />
     <Compile Include="Model\Let.cs" />
     <Compile Include="Model\NeregistrovaniKorisnik.cs" />
-    <Compile Include="Model\Pojedinac.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Model\Posjetilac.cs" />
     <Compile Include="Model\Recepcija.cs" />
     <Compile Include="Model\Rezervacija.cs" />
