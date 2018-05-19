@@ -8,9 +8,10 @@ namespace AirX.Model
 {
     class Rezervacija
     {
-        private string pasosId;
-        private string vizaId;
-        private Int32 brojSjedis;
+		private static int idRezervacije;
+        private string idPasos;
+        private string idViza;
+        private Int32 brojSjedista;
         private string hrana;
         private Int32 tezinaPrtljaga;
         private string klasa;

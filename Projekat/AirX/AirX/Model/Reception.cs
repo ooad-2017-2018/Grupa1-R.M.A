@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace AirX.Model
 {
-    class NeregistrovaniKorisnik : Posjetilac
+    class Recepcija
     {
-        public void UnosPodataka()
-        {
-            throw new System.Exception("Not implemented");
-        }
-        public string Registracija()
+        public void OcitajBarKod()
         {
             throw new System.Exception("Not implemented");
         }

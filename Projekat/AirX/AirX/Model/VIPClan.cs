@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirX.Model
 {
-    class VIPClan : User
+    class VIPClan : Pojedinac
     {
         private string tipVIP;
 
