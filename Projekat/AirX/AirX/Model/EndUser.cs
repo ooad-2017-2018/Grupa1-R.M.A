@@ -11,9 +11,7 @@ namespace AirX.Model
         //private Image slika;
         private Let letovi;
         private Rezervacija rezervacije;
-        //private Notifikacija notifikacije;
         private string opisProfila;
-       // private tip tipKorisnika;
 
  
         /* public Image GetSlika()
@@ -37,14 +35,7 @@ namespace AirX.Model
         {
             return this.rezervacije;
         }
-        /*public Notifikacija GetNotifikacije()
-        {
-            return this.notifikacije;
-        }
-        public void SetNotifikacije(ref Notifikacija notifikacije)
-        {
-            this.notifikacije = notifikacije;
-        }*/
+ 
         public string GetOpisProfila()
         {
             return this.opisProfila;
@@ -53,19 +44,8 @@ namespace AirX.Model
         {
             this.opisProfila = opisProfila;
         }
-		
-        /*public Registrovani_Korisnik()
-        {
-            throw new System.Exception("Not implemented");
-        }
-        public tip GetTipKorisnika()
-        {
-            return this.tipKorisnika;
-        }
-        public void SetTipKorisnika(ref tip tipKorisnika)
-        {
-            this.tipKorisnika = tipKorisnika;
-        }*/
+	
+        
         public string RezervacijaLeta(ref object rezervacija)
         {
             throw new System.Exception("Not implemented");

@@ -116,12 +116,11 @@
     <Compile Include="Model\Administrator.cs" />
     <Compile Include="Model\Agencija.cs" />
     <Compile Include="Model\airxbaza.cs" />
+    <Compile Include="Model\EndUser.cs" />
     <Compile Include="Model\Karta.cs" />
     <Compile Include="Model\Let.cs" />
-    <Compile Include="Model\NeregistrovaniKorisnik.cs" />
+    <Compile Include="Model\Reception.cs" />
     <Compile Include="Model\User.cs" />
-    <Compile Include="Model\Posjetilac.cs" />
-    <Compile Include="Model\Recepcija.cs" />
     <Compile Include="Model\Rezervacija.cs" />
     <Compile Include="Model\Supervizor.cs" />
     <Compile Include="Model\VIPClan.cs" />

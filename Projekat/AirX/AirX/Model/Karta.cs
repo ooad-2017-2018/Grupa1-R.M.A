@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace AirX.Model
 {
     class Karta
-    {/*
+    {
         private string barkodId;
-        private Korisnik korisnsik;
+        private EndUser korisnsik;
         private Let let;
 
         public string GetBarkodId()
@@ -20,11 +20,11 @@ namespace AirX.Model
         {
             this.barkodId = barkodId;
         }
-        public Korisnik GetKorisnsik()
+        public EndUser GetKorisnsik()
         {
             return this.korisnsik;
         }
-        public void SetKorisnsik(ref Korisnik korisnsik)
+        public void SetKorisnsik(ref EndUser korisnsik)
         {
             this.korisnsik = korisnsik;
         }
@@ -35,9 +35,6 @@ namespace AirX.Model
         public void SetLet(ref Let let)
         {
             this.let = let;
-        }
-
-        private Registrovani_Korisnik registrovani_Korisnik;
-        */
+        }        
     }
 }
