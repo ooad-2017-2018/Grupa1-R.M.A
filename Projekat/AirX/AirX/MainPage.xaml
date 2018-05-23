@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    
     <NavigationView 
         x:Name="NavView"
         Grid.RowSpan="2" 
@@ -39,7 +39,6 @@
             <NavigationViewItemSeparator/>
             <NavigationViewItemSeparator/>
 
-            <NavigationViewItemHeader Content="Admin controls"/>
         </NavigationView.MenuItems>
 
         <NavigationView.HeaderTemplate >
@@ -56,8 +55,8 @@
                     <CommandBar Grid.Column="1"
                         HorizontalAlignment="Right"
                         VerticalAlignment="Top"
+                        IsOpen="True"
                         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
-                        <AppBarButton Label="Refresh" Icon="Refresh"/>
                         <AppBarButton Label="Login" Icon="OtherUser" Click="OnLoginClick"/>
                     </CommandBar>
                 </Grid>

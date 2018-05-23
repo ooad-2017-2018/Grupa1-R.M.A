@@ -17,9 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace AirX
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    
     public sealed partial class MainPageNovi : Page
     {
         Popup Loginpopup;
@@ -28,8 +26,6 @@ namespace AirX
         {
             this.InitializeComponent();
             Loginpopup = new Popup();
-
-            
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -65,6 +61,20 @@ namespace AirX
         {
             this.IsHitTestVisible = true;
             this.Opacity = 1;
+            switch((Loginpopup.Child as LoginPopup).end)
+            {
+                case 0:
+                    if((Loginpopup.Child as LoginPopup).username == "admin")
+                    {
+                        this.Frame.Navigate(typeof(AdminPanel));
+                    }
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    this.ContentFrame.Navigate(typeof(UserRegistracijaView));
+                    break;
+            }     
         }
 
         private void Navigate (object sender, RoutedEventArgs e)

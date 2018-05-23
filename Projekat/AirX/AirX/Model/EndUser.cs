@@ -56,6 +56,19 @@ namespace AirX.Model
 
         private Karta[] kartas;
 
+        public EndUser(string givenName, string surname, bool gender, DateTime birthDate, string birthPlace, string nationality, string physicalAdress, string phoneNumber, string userName, string email, string password) : base(givenName, surname, gender, birthDate, birthPlace, nationality, physicalAdress, phoneNumber, userName, email, password)
+        {
 
+        }
+
+        public EndUser(string givenName, string surname, bool gender, DateTime birthDate, string birthPlace, string nationality, string physicalAdress, string phoneNumber, string userName, string email, string password,Let letovi, Rezervacija rezervacije, string opisProfila, Rezervacija[] rezervacijas, Let[] lets, Karta[] kartas) : base(givenName, surname, gender, birthDate, birthPlace, nationality, physicalAdress, phoneNumber, userName, email, password)
+        {
+            this.letovi = letovi;
+            this.rezervacije = rezervacije;
+            this.opisProfila = opisProfila;
+            this.rezervacijas = rezervacijas;
+            this.lets = lets;
+            this.kartas = kartas;
+        }
     }
 }

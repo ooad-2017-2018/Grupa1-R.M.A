@@ -19,6 +19,10 @@ namespace AirX
 {
     public sealed partial class LoginPopup : UserControl
     {
+
+        public string username, password;
+        public Int32 end;
+
         public LoginPopup()
         {
             this.InitializeComponent();
@@ -27,6 +31,34 @@ namespace AirX
 
         private void ButtonReturnClick(object o, RoutedEventArgs e)
         {
+            end = 2;
+
+            Popup p = this.Parent as Popup;
+
+            if (p != null)
+            {
+                p.IsOpen = false;
+            }
+        }
+
+        private void LoginBut_Click(object sender, RoutedEventArgs e)
+        {
+            username=UserName.Text;
+            password = Password.Text;
+            end = 0;
+
+            Popup p = this.Parent as Popup;
+
+            if (p != null)
+            {
+                p.IsOpen = false;
+            }
+        }
+
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+            end = 2;
+
             Popup p = this.Parent as Popup;
 
             if (p != null)

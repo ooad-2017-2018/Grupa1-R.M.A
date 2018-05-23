@@ -9,7 +9,7 @@
     Background="White"
     >
     
-    <Grid BorderBrush="SkyBlue" BorderThickness="2">
+    <Grid BorderBrush="SkyBlue" BorderThickness="2" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"/>
             <RowDefinition Height="60*"/>
@@ -48,7 +48,7 @@
 
 
                 <Grid Grid.Column="1" Grid.Row="0">
-                    <Button VerticalAlignment="Stretch" HorizontalAlignment="Right" Content="Clear" Background="LightGray" Margin="0,0,10,0"/>
+                    <Button VerticalAlignment="Stretch" HorizontalAlignment="Right" Content="Clear" Background="LightGray" Margin="0,0,10,0" Click="OnClearClick"/>
                 </Grid>
 
 
@@ -162,7 +162,7 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="3">
-                <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Register" Background="SkyBlue" Margin="2,2,2,2"/>
+                <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Register" Background="SkyBlue" Margin="2,2,2,2" Click="Registracija_Click"/>
             </Grid>
 
         </Grid>

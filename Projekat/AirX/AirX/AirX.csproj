@@ -125,8 +125,11 @@
     <Compile Include="Model\Supervizor.cs" />
     <Compile Include="Model\VIPClan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistracijaView.xaml.cs">
-      <DependentUpon>RegistracijaView.xaml</DependentUpon>
+    <Compile Include="RegistracijaUserContr.xaml.cs">
+      <DependentUpon>RegistracijaUserContr.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegistracijaView.xaml.cs">
+      <DependentUpon>UserRegistracijaView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -179,7 +182,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RegistracijaView.xaml">
+    <Page Include="RegistracijaUserContr.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserRegistracijaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

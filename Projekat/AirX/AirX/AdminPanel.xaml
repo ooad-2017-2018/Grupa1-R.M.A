@@ -7,8 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <NavigationView 
+        <NavigationView 
         x:Name="NavView"
         Grid.RowSpan="2" 
         VerticalAlignment="Stretch"
@@ -16,56 +15,57 @@
 
 
 
-        <NavigationView.MenuItems >
+            <NavigationView.MenuItems >
 
-            <NavigationViewItemSeparator/>
-            <NavigationViewItemSeparator/>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItemSeparator/>
 
-            <NavigationViewItemHeader Content="Admin controls"/>
-            <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home" >
-                <NavigationViewItem.Icon>
-                    <FontIcon Glyph="&#xE10F;"/>
-                </NavigationViewItem.Icon>
-            </NavigationViewItem>
-            <NavigationViewItem x:Uid="AppsNavItem" Icon="AddFriend" Content="Add users" Tag="add" Tapped="Navigate" />
-            <NavigationViewItem x:Uid="GamesNavItem" Icon="People" Content="View users" Tag="view" Tapped="Navigate"/>
-            
-            <NavigationViewItemSeparator/>
-            <NavigationViewItemSeparator/>
+                <NavigationViewItemHeader Content="Admin controls"/>
+                <NavigationViewItem x:Uid="HomeNavItem" Content="Home" Tag="home" >
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE10F;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Uid="AppsNavItem" Icon="AddFriend" Content="Add users" Tag="add" Tapped="Navigate" />
+                <NavigationViewItem x:Uid="GamesNavItem" Icon="People" Content="View users" Tag="view" Tapped="Navigate"/>
 
-        </NavigationView.MenuItems>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItemSeparator/>
 
-        <NavigationView.HeaderTemplate >
-            <DataTemplate >
-                <Grid Margin="24,10,0,0" >
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Style="{StaticResource TitleTextBlockStyle}"
+            </NavigationView.MenuItems>
+
+            <NavigationView.HeaderTemplate >
+                <DataTemplate >
+                    <Grid Margin="24,10,0,0" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Style="{StaticResource TitleTextBlockStyle}"
                         FontSize="28"
                         VerticalAlignment="Center"
                         Text="Welcome, administrator"/>
-                    <CommandBar Grid.Column="1"
+                        <CommandBar Grid.Column="1"
                         HorizontalAlignment="Right"
                         VerticalAlignment="Top"
+                        IsOpen="True"
                         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
-                        <AppBarButton Label="Refresh" Icon="Refresh"/>
-                    </CommandBar>
-                </Grid>
-            </DataTemplate>
-        </NavigationView.HeaderTemplate>
+                            <AppBarButton Name="Logout" Label="Logout" Icon="OtherUser" Click="Logout_Click"/>
+                        </CommandBar>
+                    </Grid>
+                </DataTemplate>
+            </NavigationView.HeaderTemplate>
 
 
-        <Frame x:Name="ContentFrame" Margin="24" >
+            <Frame x:Name="ContentFrame" Margin="24" >
 
-            <Frame.ContentTransitions>
+                <Frame.ContentTransitions>
 
-                <TransitionCollection>
-                    <NavigationThemeTransition/>
-                </TransitionCollection>
-            </Frame.ContentTransitions>
-        </Frame>
+                    <TransitionCollection>
+                        <NavigationThemeTransition/>
+                    </TransitionCollection>
+                </Frame.ContentTransitions>
+            </Frame>
 
-    </NavigationView>
+        </NavigationView>
 </Page>

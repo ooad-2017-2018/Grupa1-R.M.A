@@ -17,12 +17,19 @@ using Windows.UI.Xaml.Navigation;
 
 namespace AirX
 {
- 
-    public sealed partial class RegistracijaView : UserControl
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class UserRegistracijaView : Page
     {
-        public RegistracijaView()
+        RegistracijaView reg;
+
+        public UserRegistracijaView()
         {
             this.InitializeComponent();
+            reg = new RegistracijaView();
+
+            this.regControl.Content = reg;
         }
     }
 }

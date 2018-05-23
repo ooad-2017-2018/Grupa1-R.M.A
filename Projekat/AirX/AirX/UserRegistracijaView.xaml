@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="AirX.UserRegistracijaView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AirX"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Please enter your information: " FontSize="35"/>
+
+        <Grid Grid.Row="1">
+            <UserControl Name="regControl"/>
+        </Grid>
+    </Grid>
+</Page>
