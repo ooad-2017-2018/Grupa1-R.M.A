@@ -16,28 +16,37 @@ using AirX.Model;
 
 namespace AirX
 {
- 
+
     public sealed partial class RegistracijaView : UserControl
     {
         private User user;
-        private String givenName, surname, placeOfBirth, gender, nationality, physicalAdress, phoneNumber, emailAdress, password, username
-        private DateTime dateOfBirth;
 
-      
+        internal User User { get => user; set => user = value; }
+
         public RegistracijaView()
         {
             this.InitializeComponent();
+            lbGender.Items.Add("Male");
+            lbGender.Items.Add("Female");
+
         }
 
         private void OnClearClick(object sender, RoutedEventArgs e)
         {
             var tb = new List<TextBox>();
             FindTextBoxex(this, tb);
-            Boolean fieldsEmpty = false;
             foreach (var x in tb)
             {
                 x.Text = String.Empty;
             }
+        }
+
+        public event RoutedEventHandler RegClicked;
+        protected void OnRegClick(RoutedEventArgs e)
+        {
+            var handler = RegClicked;
+            if (handler != null)
+                handler(this, e);
         }
 
         private void Registracija_Click(object sender, RoutedEventArgs e)
@@ -55,14 +64,20 @@ namespace AirX
                 && tbEmailAdress.Text == tbEmailConfirmation.Text)
             {
                 Boolean gender;
-                if (lbGender.SelectedItem.ToString() == "Male") gender = false;
-                else gender = true;
+                if (lbGender.SelectedItem.ToString() == "Male")
+                    gender = false;
+                else
+                    gender = true;
+
                 DateTime xxxxxx = DateTime.Today; // =====> cdpDateOfBirth
-                this.user = new User(tbGivenName.Text, tbSurname.Text, gender, xxxxxx, tbPlaceOfBirth.Text, tbNationality.Text,
-                    tbPhysicalAdress.Text, tbPhoneNumber.Text, tbUsername.Text, tbEmailAdress.Text, tbPassword.Text);
+                this.User = new User(tbGivenName.Text, tbSurname.Text, gender, xxxxxx, tbPlaceOfBirth.Text, tbNationality.Text,
+                                    tbPhysicalAdress.Text, tbPhoneNumber.Text, tbUsername.Text, tbEmailAdress.Text, tbPassword.Text);
+
+                OnRegClick(e);
+                
             }
         }
-        
+
         private void FindTextBoxex(object uiElement, IList<TextBox> foundOnes)
         {
             if (uiElement is TextBox)
@@ -89,7 +104,6 @@ namespace AirX
             }
         }
     }
-
     
 }
 
