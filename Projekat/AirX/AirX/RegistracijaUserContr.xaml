@@ -57,14 +57,14 @@
                     <TextBlock Text="Given name" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="2">
-                    <TextBox VerticalAlignment="Top" Margin="10,0,10,0"/>
+                    <TextBox Name="tbGivenName" VerticalAlignment="Top" Margin="10,0,10,0"/>
                 </Grid>
 
                 <Grid Grid.Column="1" Grid.Row="1">
                     <TextBlock Text="Surname" VerticalAlignment="Center"/>
                 </Grid>
                 <Grid Grid.Column="1" Grid.Row="2">
-                    <TextBox VerticalAlignment="Top" Margin="0,0,10,0"/>
+                        <TextBox Name="tbSurname" VerticalAlignment="Top" Margin="0,0,10,0"/>
                 </Grid>
 
 
@@ -72,14 +72,14 @@
                     <TextBlock Text="Date of birth" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="4">
-                    <CalendarDatePicker VerticalAlignment="Top" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,0,0,0" />
+                        <CalendarDatePicker Name="cdpDateOfBirth" VerticalAlignment="Top" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,0,0,0" />
                 </Grid>
 
                 <Grid Grid.Column="1" Grid.Row="3">
                     <TextBlock Text="Place of birth" VerticalAlignment="Center" Margin="0,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="1" Grid.Row="4">
-                    <TextBox VerticalAlignment="Top" Margin="0,0,10,0"/>
+                        <TextBox Name="tbPlaceOfBirth" VerticalAlignment="Top" Margin="0,0,10,0"/>
                 </Grid>
 
 
@@ -87,14 +87,14 @@
                     <TextBlock Text="Gender" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="6">
-                    <ListBox VerticalAlignment="Top" Margin="10,5,10,0"/>
+                        <ListBox Name="lbGender" VerticalAlignment="Top" Margin="10,5,10,0"/>
                 </Grid>
 
                 <Grid Grid.Column="1" Grid.Row="5">
                     <TextBlock Text="Nationality" VerticalAlignment="Center"/>
                 </Grid>
                 <Grid Grid.Column="1" Grid.Row="6">
-                    <TextBox VerticalAlignment="Top" Margin="0,0,10,0"/>
+                        <TextBox Name="tbNationality" VerticalAlignment="Top" Margin="0,0,10,0"/>
                 </Grid>
 
 
@@ -102,14 +102,14 @@
                     <TextBlock Text="Physical adress" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="8">
-                    <TextBox VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Name="tbPhysicalAdress" VerticalAlignment="Top" Margin="10,0,10,0"/>
                 </Grid>
 
                 <Grid Grid.Column="1" Grid.Row="7">
                     <TextBlock Text="Phone number" VerticalAlignment="Center" Margin="0,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="1" Grid.Row="8">
-                    <TextBox VerticalAlignment="Top" Margin="0,0,10,0"/>
+                        <TextBox Name="tbPhoneNumber" VerticalAlignment="Top" Margin="0,0,10,0"/>
                 </Grid>
 
 
@@ -117,14 +117,14 @@
                     <TextBlock Text="E-mail adress" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="10">
-                    <TextBox VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Name="tbEmailAdress" VerticalAlignment="Top" Margin="10,0,10,0"/>
                 </Grid>
 
                 <Grid Grid.Column="1" Grid.Row="9">
                     <TextBlock Text="Confirm e-mail adress" VerticalAlignment="Center" Margin="0,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="1" Grid.Row="10">
-                    <TextBox VerticalAlignment="Top" Margin="0,0,10,0"/>
+                        <TextBox Name="tbEmailConfirmation" VerticalAlignment="Top" Margin="0,0,10,0"/>
                 </Grid>
 
 
@@ -132,21 +132,21 @@
                     <TextBlock Text="Password" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="12">
-                    <TextBox VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Name="tbPassword" VerticalAlignment="Top" Margin="10,0,10,0"/>
                 </Grid>
 
                 <Grid Grid.Column="1" Grid.Row="11">
                     <TextBlock Text="Confirm password" VerticalAlignment="Center" Margin="0,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="1" Grid.Row="12">
-                    <TextBox VerticalAlignment="Top" Margin="0,0,10,0"/>
+                        <TextBox Name="tbPasswordConfirmation" VerticalAlignment="Top" Margin="0,0,10,0"/>
                 </Grid>
 
                 <Grid Grid.Column="0" Grid.Row="13">
                     <TextBlock Text="User name" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Column="0" Grid.Row="14">
-                    <TextBox VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Name="tbUsername" VerticalAlignment="Top" Margin="10,0,10,0"/>
                 </Grid>
 
                 </Grid>
