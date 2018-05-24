@@ -41,7 +41,7 @@
 
             <Grid Grid.Column="1">
                 <StackPanel Orientation="Horizontal">
-                    <RadioButton Name="UsEnd" Content="End user" />
+                    <RadioButton Name="UsEnd" Content="End user" IsChecked="True"/>
                     <RadioButton Name="UsClerc" Content="Clerc"/>
                     <RadioButton Name="UsSuper" Content="Supervizor"/>
                     <RadioButton Name="UsAdmin" Content="Administrator" />

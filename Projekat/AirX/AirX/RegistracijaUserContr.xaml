@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="White"
     >
-    
+
     <Grid BorderBrush="SkyBlue" BorderThickness="2" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"/>
@@ -21,136 +21,136 @@
         </Grid>
 
         <Grid Grid.Row="1">
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <Grid Margin="10,10,10,10" BorderBrush="Gray" BorderThickness="0">
-                <Grid.ColumnDefinitions >
-                    <ColumnDefinition Width="25*"/>
-                    <ColumnDefinition Width="25*"/>
-                </Grid.ColumnDefinitions>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid Margin="10,10,10,10" BorderBrush="Gray" BorderThickness="0">
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                    </Grid.ColumnDefinitions>
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="15*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="25*"/>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
                     </Grid.RowDefinitions>
 
 
-                <Grid Grid.Column="1" Grid.Row="0">
-                    <Button VerticalAlignment="Stretch" HorizontalAlignment="Right" Content="Clear" Background="LightGray" Margin="0,0,10,0" Click="OnClearClick"/>
-                </Grid>
+                    <Grid Grid.Column="1" Grid.Row="0">
+                        <Button VerticalAlignment="Stretch" HorizontalAlignment="Right" Content="Clear" Background="LightGray" Margin="0,0,10,0" Click="OnClearClick"/>
+                    </Grid>
 
 
 
-                <Grid Grid.Column="0" Grid.Row="1">
-                    <TextBlock Text="Given name" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="2">
-                    <TextBox Name="tbGivenName" VerticalAlignment="Top" Margin="10,0,10,0"/>
-                </Grid>
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <TextBlock Text="Given name" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="2">
+                        <TextBox Name="tbGivenName" VerticalAlignment="Top" Margin="10,0,10,0"/>
+                    </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="1">
-                    <TextBlock Text="Surname" VerticalAlignment="Center"/>
-                </Grid>
-                <Grid Grid.Column="1" Grid.Row="2">
+                    <Grid Grid.Column="1" Grid.Row="1">
+                        <TextBlock Text="Surname" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="2">
                         <TextBox Name="tbSurname" VerticalAlignment="Top" Margin="0,0,10,0"/>
-                </Grid>
+                    </Grid>
 
 
-                <Grid Grid.Column="0" Grid.Row="3">
-                    <TextBlock Text="Date of birth" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="4">
-                        <CalendarDatePicker Name="cdpDateOfBirth" VerticalAlignment="Top" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,0,0,0" />
-                </Grid>
+                    <Grid Grid.Column="0" Grid.Row="3">
+                        <TextBlock Text="Date of birth" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="4">
+                        <DatePicker Name="cdpDateOfBirth" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0"  />
+                    </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="3">
-                    <TextBlock Text="Place of birth" VerticalAlignment="Center" Margin="0,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="1" Grid.Row="4">
+                    <Grid Grid.Column="1" Grid.Row="3">
+                        <TextBlock Text="Place of birth" VerticalAlignment="Center" Margin="0,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="4">
                         <TextBox Name="tbPlaceOfBirth" VerticalAlignment="Top" Margin="0,0,10,0"/>
-                </Grid>
+                    </Grid>
 
 
-                <Grid Grid.Column="0" Grid.Row="5">
-                    <TextBlock Text="Gender" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="6">
+                    <Grid Grid.Column="0" Grid.Row="5">
+                        <TextBlock Text="Gender" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="6">
                         <ListBox Name="lbGender" VerticalAlignment="Top" Margin="10,5,10,0"/>
-                </Grid>
+                    </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="5">
-                    <TextBlock Text="Nationality" VerticalAlignment="Center"/>
-                </Grid>
-                <Grid Grid.Column="1" Grid.Row="6">
+                    <Grid Grid.Column="1" Grid.Row="5">
+                        <TextBlock Text="Nationality" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="6">
                         <TextBox Name="tbNationality" VerticalAlignment="Top" Margin="0,0,10,0"/>
-                </Grid>
+                    </Grid>
 
 
-                <Grid Grid.Column="0" Grid.Row="7">
-                    <TextBlock Text="Physical adress" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="8">
+                    <Grid Grid.Column="0" Grid.Row="7">
+                        <TextBlock Text="Physical adress" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="8">
                         <TextBox Name="tbPhysicalAdress" VerticalAlignment="Top" Margin="10,0,10,0"/>
-                </Grid>
+                    </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="7">
-                    <TextBlock Text="Phone number" VerticalAlignment="Center" Margin="0,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="1" Grid.Row="8">
+                    <Grid Grid.Column="1" Grid.Row="7">
+                        <TextBlock Text="Phone number" VerticalAlignment="Center" Margin="0,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="8">
                         <TextBox Name="tbPhoneNumber" VerticalAlignment="Top" Margin="0,0,10,0"/>
-                </Grid>
+                    </Grid>
 
 
-                <Grid Grid.Column="0" Grid.Row="9">
-                    <TextBlock Text="E-mail adress" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="10">
+                    <Grid Grid.Column="0" Grid.Row="9">
+                        <TextBlock Text="E-mail adress" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="10">
                         <TextBox Name="tbEmailAdress" VerticalAlignment="Top" Margin="10,0,10,0"/>
-                </Grid>
+                    </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="9">
-                    <TextBlock Text="Confirm e-mail adress" VerticalAlignment="Center" Margin="0,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="1" Grid.Row="10">
+                    <Grid Grid.Column="1" Grid.Row="9">
+                        <TextBlock Text="Confirm e-mail adress" VerticalAlignment="Center" Margin="0,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="10">
                         <TextBox Name="tbEmailConfirmation" VerticalAlignment="Top" Margin="0,0,10,0"/>
-                </Grid>
+                    </Grid>
 
 
-                <Grid Grid.Column="0" Grid.Row="11">
-                    <TextBlock Text="Password" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="12">
+                    <Grid Grid.Column="0" Grid.Row="11">
+                        <TextBlock Text="Password" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="12">
                         <TextBox Name="tbPassword" VerticalAlignment="Top" Margin="10,0,10,0"/>
-                </Grid>
+                    </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="11">
-                    <TextBlock Text="Confirm password" VerticalAlignment="Center" Margin="0,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="1" Grid.Row="12">
+                    <Grid Grid.Column="1" Grid.Row="11">
+                        <TextBlock Text="Confirm password" VerticalAlignment="Center" Margin="0,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="12">
                         <TextBox Name="tbPasswordConfirmation" VerticalAlignment="Top" Margin="0,0,10,0"/>
-                </Grid>
+                    </Grid>
 
-                <Grid Grid.Column="0" Grid.Row="13">
-                    <TextBlock Text="User name" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                </Grid>
-                <Grid Grid.Column="0" Grid.Row="14">
+                    <Grid Grid.Column="0" Grid.Row="13">
+                        <TextBlock Text="User name" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="14">
                         <TextBox Name="tbUsername" VerticalAlignment="Top" Margin="10,0,10,0"/>
-                </Grid>
+                    </Grid>
 
                 </Grid>
-        </ScrollViewer>
+            </ScrollViewer>
         </Grid>
 
         <Grid Grid.Row="3">

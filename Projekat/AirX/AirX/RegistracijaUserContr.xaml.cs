@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using AirX.Model;
+using Windows.UI.Popups;
+
 
 namespace AirX
 {
@@ -28,6 +30,7 @@ namespace AirX
             this.InitializeComponent();
             lbGender.Items.Add("Male");
             lbGender.Items.Add("Female");
+            lbGender.SelectedIndex = 0;
 
         }
 
@@ -45,8 +48,7 @@ namespace AirX
         protected void OnRegClick(RoutedEventArgs e)
         {
             var handler = RegClicked;
-            if (handler != null)
-                handler(this, e);
+            handler(this, e);
         }
 
         private void Registracija_Click(object sender, RoutedEventArgs e)
@@ -69,12 +71,16 @@ namespace AirX
                 else
                     gender = true;
 
-                DateTime xxxxxx = DateTime.Today; // =====> cdpDateOfBirth
-                this.User = new User(tbGivenName.Text, tbSurname.Text, gender, xxxxxx, tbPlaceOfBirth.Text, tbNationality.Text,
+                DateTime datum = cdpDateOfBirth.Date.Date;
+               
+                this.User = new User(tbGivenName.Text, tbSurname.Text, gender, datum, tbPlaceOfBirth.Text, tbNationality.Text,
                                     tbPhysicalAdress.Text, tbPhoneNumber.Text, tbUsername.Text, tbEmailAdress.Text, tbPassword.Text);
 
-                OnRegClick(e);
-                
+                OnRegClick(e);       
+            } else
+            {
+                MessageDialog msgDialog = new MessageDialog("Neispravan unos", "Greska");
+                msgDialog.ShowAsync();
             }
         }
 

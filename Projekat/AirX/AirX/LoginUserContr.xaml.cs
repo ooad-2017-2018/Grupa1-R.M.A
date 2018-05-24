@@ -31,7 +31,7 @@ namespace AirX
 
         private void ButtonReturnClick(object o, RoutedEventArgs e)
         {
-            end = 2;
+            end = 1;
 
             Popup p = this.Parent as Popup;
 

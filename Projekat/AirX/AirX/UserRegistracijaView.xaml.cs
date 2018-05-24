@@ -16,8 +16,6 @@ using AirX.Model;
 using Microsoft.WindowsAzure.MobileServices;
 using Windows.UI.Popups;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace AirX
 {
 
@@ -35,6 +33,7 @@ namespace AirX
             reg.RegClicked += ControlRegClicked;
         }
 
+
         private void ControlRegClicked (object sender, RoutedEventArgs e)
         {
             try
@@ -46,9 +45,10 @@ namespace AirX
                 user.UserType = "end_user"; 
 
                 userTableObj.InsertAsync(user);
-                MessageDialog msgDialog = new MessageDialog("Uspješno ste unijeli novog studenta.");
-                msgDialog.ShowAsync();
+                MessageDialog msgDialog = new MessageDialog("Uspješno ste registrovali vas korisnicki racun.");
+                msgDialog.ShowAsync();  
                 
+                this.Frame.GoBack();                
             }
             catch (Exception ex)
             {
