@@ -1,0 +1,202 @@
+<mockup version="5.2" minAllowVersion="5.2" ID="5B88344A-1313-42A7-920D-44532DE95E96" platform="MtDesktop" defaultW="800" defaultH="885" measureW="930" measureH="600" mobileScreenScale="0">
+  <controls controlCount="25">
+    <control controlID="8189A723-9FF6-4323-BD74-D598674D83B6" controlTypeID="Shape" x="-1" y="0" w="89" h="600" zOrder="0">
+      <color>4278203289</color>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4278242559</textColor>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6386BA3C-134F-424C-88A8-59D2B3C94720" controlTypeID="TextInput" x="10" y="18" w="66" h="16" zOrder="1">
+      <caption>LOGO</caption>
+      <color>6737151</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>Air-X</text>
+      <textColor>4294967295</textColor>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="182CADAB-68B1-453D-B4C7-4BF25CE3EEDE" controlTypeID="AvatarEx2" x="882" y="12" w="28" h="28" zOrder="2">
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59652</iconCode>
+      </icon>
+      <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+    </control>
+    <control controlID="856DF42A-7096-4CBA-B181-CBAD868A36AC" controlTypeID="TextInput" x="832" y="14" w="50" h="24" zOrder="3">
+      <caption>LOGO</caption>
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>User</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="280D0ABF-D61C-4F94-999C-DA45F743205C" controlTypeID="VRule" x="826" y="13" w="12" h="26" zOrder="4"/>
+    <control controlID="93A657E5-7BE2-443A-B218-2AA4CAECB92B" controlTypeID="TextInput" x="774" y="14" w="52" h="24" zOrder="5">
+      <caption>LOGO</caption>
+      <color>4278203289</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Log+out</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9122FF34-334F-4D1C-92EA-ECA88BC0C550" controlTypeID="VerticalTabBar" x="7" y="58" w="903" h="516" zOrder="6">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Menu%2CDestinations%2CFlights%2CPassangers%2CArticles%2C+Resources%2C+Settings</text>
+      <lineSpacing>0</lineSpacing>
+      <tabHeight>74</tabHeight>
+    </control>
+    <control controlID="2149D739-36D6-4D2A-9B80-373D75BA8BB2" controlTypeID="TextArea" x="113" y="11" w="268" h="30" zOrder="7">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Welcome%2C+supervizor+</text>
+      <textColor>4288256409</textColor>
+      <textSize>24</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+    </control>
+    <control controlID="02514A0B-046B-4E20-92F9-D1F3A37C5598" controlTypeID="TextArea" x="110" y="84" w="318" h="30" zOrder="8">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Fast+options</text>
+      <textColor>4288256409</textColor>
+      <textSize>24</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="5BBA4B25-BB78-47F0-B291-F44BBA5EEF46" controlTypeID="Line" x="112" y="119" w="365" h="1" zOrder="9">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <controlPoint>(183,1)</controlPoint>
+      <startPoint>(0,1)</startPoint>
+      <endPoint>(365,1)</endPoint>
+    </control>
+    <control controlID="0F8C796A-5DCF-4454-AE53-976E54026A71" controlTypeID="Button" x="110" y="134" w="116" h="49" zOrder="10">
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI+Emoji" displayName="Segoe+UI+Emoji" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Add+a+flight</text>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <radius>4</radius>
+    </control>
+    <control controlID="BA91405D-B550-4C3E-9743-753D758A9246" controlTypeID="Button" x="363" y="188" w="116" h="49" zOrder="11">
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI+Emoji" displayName="Segoe+UI+Emoji" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>View+clients</text>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+    </control>
+    <control controlID="C84DF3DA-02A9-4AD8-8B5F-373BFFEDB795" controlTypeID="Button" x="363" y="134" w="116" h="49" zOrder="12">
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI+Emoji" displayName="Segoe+UI+Emoji" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>View+satistics</text>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+    </control>
+    <control controlID="18B0DEED-D658-4010-A54B-A02D0ADA90F9" controlTypeID="Button" x="237" y="188" w="116" h="49" zOrder="13">
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI+Emoji" displayName="Segoe+UI+Emoji" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Edit+an+article</text>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+    </control>
+    <control controlID="2A6C7A20-4B3E-4A0D-B49F-E2992F4A8A1E" controlTypeID="Button" x="237" y="134" w="116" h="49" zOrder="14">
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI+Emoji" displayName="Segoe+UI+Emoji" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Create+an+article</text>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+    </control>
+    <control controlID="798B74CA-2F34-4192-A7A6-D477998AD3CD" controlTypeID="Button" x="110" y="188" w="116" h="49" zOrder="15">
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI+Emoji" displayName="Segoe+UI+Emoji" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Edit+a+flight</text>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+    </control>
+    <control controlID="E6B29390-E563-48D8-8B1F-6179CE19EEF9" controlTypeID="TextArea" x="110" y="256" w="318" h="30" zOrder="16">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Latest+passenger+reviews</text>
+      <textColor>4288256409</textColor>
+      <textSize>24</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3D2FFE2A-595E-4380-9DF7-F6C49B270301" controlTypeID="Line" x="112" y="291" w="365" h="2" zOrder="17">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(182,1)</controlPoint>
+      <startPoint>(0,1)</startPoint>
+      <endPoint>(365,1)</endPoint>
+    </control>
+    <control controlID="3EA626F1-E3FF-47D8-87F1-709229ED2867" controlTypeID="ColumnChartEx" x="517" y="134" w="365" h="385" zOrder="18">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>40%2Corange%0D%0A70%2Ccyan%0D%0A100%2Cpink%0D%0A60%2C%23FFCE55</text>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="D01B6F06-5940-436D-BE8F-8588D8A97F90" controlTypeID="Accordion" x="112" y="303" w="365" h="245" zOrder="19">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Ridvan+Appa+Bugis++++++++++++++++++++++++++++++++++++++++Sarajevo+-+New+York%0D%0AAjdin+Jajcanin++++++++++++++++++++++++++++++++++++++++++++++++Madrid+-++Moskva%0D%0AMak+Fisic+++++++++++++++++++++++++++++++++++++++++++++++++++++++Abu+Dhabi+-+Dubai%0D%0A-+Sub-Item2.2%0D%0AMubarak+Appa+Bugis++++++++++++++++++++++++++++++++++++Skola+-+Kuca%0D%0A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedColor>4284914175</selectedColor>
+    </control>
+    <control controlID="0707C6DE-1988-4826-BF2C-375661FA2B77" controlTypeID="VSlider" x="470" y="303" w="14" h="245" zOrder="20"/>
+    <control controlID="9D3BE03B-F384-4E40-9136-08F38CD052F5" controlTypeID="TextArea" x="122" y="342" w="338" h="107" zOrder="21">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Pellentesque+iaculis%2C+augue+eu+bibendum+posuere%2C+erat+orci+vestibulum+mi%2C+id+tempor+augue+enim+ut+sapien.+Class+aptent+taciti+sociosqu+ad+litora+torquent+per+conubia+nostra%2C+per+inceptos+himenaeos.+Mauris+scelerisque+orci+sed+sapien+vulputate+aliquam.+Sed+volutpat+maximus+libero+eget+porttitor.+Ut+a+massa+porta%2C+dapibus+justo+sed%2C+varius+sapien.+Cum+sociis+natoque+penatibus+et+magnis+dis+parturient+montes%2C+nascetur+ridiculus+mus.+Praesent+neque+arcu%2C+aliquam+ut+eros+sollicitudin%2C+fermentum+venenatis+risus.+Vestibulum+eleifend+ligula+a+odio+tristique%2C+et+molestie+lacus+pretium.+Etiam+tempus+ornare+eros+vel+pharetra.+Pellentesque+in+felis+quam.+In+risus+justo%2C+congue+ut+quam+vel%2C+dictum+dapibus+nunc.%0D%0A</text>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="D462A9B6-7A68-4866-B0C6-CD04E04CA04E" controlTypeID="TextArea" x="515" y="83" w="318" h="30" zOrder="22">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Satatistics</text>
+      <textColor>4288256409</textColor>
+      <textSize>24</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9F8582F4-ED06-430A-9DCE-CAFAF0C17CA9" controlTypeID="Line" x="517" y="118" w="365" h="2" zOrder="23">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(182,1)</controlPoint>
+      <startPoint>(0,1)</startPoint>
+      <endPoint>(365,1)</endPoint>
+    </control>
+    <control controlID="CCA0B8FB-E29B-43D6-A26F-2E6E428F8CF6" controlTypeID="TextArea" x="521" y="519" w="367" h="66" zOrder="24">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Orange++++++Green+++++++++Pink+++++++Yellow</text>
+      <textSize>20</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

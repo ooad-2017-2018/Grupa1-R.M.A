@@ -1,0 +1,268 @@
+﻿<mockup version="5.2" minAllowVersion="5.2" ID="F396843B-13B2-409A-816B-D6569FC3FC05" platform="MtDesktop" defaultW="800" defaultH="885" measureW="896" measureH="884" mobileScreenScale="0">
+  <controls controlCount="33">
+    <control controlID="2C449F5D-0823-4FED-93D6-5FA00685A44B" controlTypeID="ScrollView" x="0" y="0" w="899" h="885" zOrder="0">
+      <groupChildrenDescriptors>
+        <control controlID="5296ACB9-B088-43EC-BE47-ADE87DDD308E" controlTypeID="ScrollViewContentPanel" x="0" y="0" w="905" h="1732" zOrder="0">
+          <caption>Scroll+ViewPort</caption>
+          <alias>contentPanel</alias>
+          <groupChildrenDescriptors>
+            <control controlID="58EABFEA-AA13-4367-9734-C5FBCB2B812D" controlTypeID="Image" x="49" y="605" w="345" h="112" zOrder="0">
+              <URL>E8D786558BDB6753AA5D7FD230320F89.jpg</URL>
+            </control>
+            <control controlID="46426701-6E27-409D-8B57-145533DFA3E8" controlTypeID="Label" x="294" y="535" w="283" h="38" zOrder="1">
+              <caption>Top+sigths+of+United+Arab+Emirates</caption>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Top+sigths+in+Sumatra</text>
+              <textSize>28</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="66518000-555A-4C33-9A6B-6E22A36B8A3F" controlTypeID="TextArea" x="426" y="604" w="428" h="113" zOrder="2">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Indonesia+is+the+most+picturesque+country+of+South+East+Asia+that+never+ceases+to+amaze+its+guests+with+numerous+natural+and+cultural+sights.+While+describing+traditions+and+lifestyle+of+Indonesia%2C+it+is+simply+impossible+to+fail+to+mention+their+diversity.+There%E2%80%99s+nothing+strange+in+that+as+Indonesia+is+home+to+more+than+a+hundred+of+different+nationalities.+Consequently%2C+historic+monuments+are+also+very+different+and+unique.</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="C11B3D49-AA72-42D0-B875-3CDA5D3D2230" controlTypeID="Label" x="47" y="739" w="94" h="38" zOrder="3">
+              <caption>Top+sigths+of+United+Arab+Emirates</caption>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Images+</text>
+              <textSize>28</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="B5C49A28-F4EC-49DB-A33F-985CA07ECF7B" controlTypeID="ImageCarousel" x="47" y="787" w="807" h="284" zOrder="4">
+              <groupChildrenDescriptors>
+                <control controlID="FF9882A3-4993-4551-A4AB-30EB0338B91D" controlTypeID="ImageBackground" x="0" y="0" w="807" h="284" zOrder="0">
+                  <caption>4684905-indonesia-wallpapers</caption>
+                  <groupChildrenDescriptors/>
+                  <URL>1ABDCF9B9A3CE80996A0F37A4D6A0F79.png</URL>
+                </control>
+                <control controlID="061643E3-FE4C-451E-93D4-20D761B1D040" controlTypeID="ImageBackground" x="0" y="0" w="807" h="284" zOrder="1">
+                  <caption>photo-1508920005420-82c189673623</caption>
+                  <groupChildrenDescriptors/>
+                  <URL>0C00D3E5998014227780DDC0DAB06A75.png</URL>
+                </control>
+              </groupChildrenDescriptors>
+              <selectedIndex>1</selectedIndex>
+            </control>
+            <control controlID="9B2B2FA6-F615-4CE3-9065-5821E8E6446F" controlTypeID="Label" x="217" y="1112" w="437" h="38" zOrder="5">
+              <caption>Top+sigths+of+United+Arab+Emirates</caption>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Chapters+of+the+guide+to+Sumatra</text>
+              <textSize>28</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="115CF5B4-2543-4BC3-AEFA-46B4110A9853" controlTypeID="TextArea" x="47" y="1205" w="353" h="155" zOrder="6">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>One+of+the+smallest+and+most+beautiful+towns+in+Indonesia+is+Cemoro+Lawang.+The+town+is+located+close+to+the+volcano+Bromo%2C+to+which+it+owes+its+fame.+Tourists+visit+the++town+in+the+framework+of+sightseeing+tours+across+the+surrounding+area.+Many+travelers+stay+here+for+a+night+to+start+for+a+walk+along+mountains+and+enjoy+the+majestic+volcanoes+after+dawn.+%0D%0A</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="767199B3-A1E8-4223-ACD1-DC5D2664EEF2" controlTypeID="TextArea" x="495" y="1205" w="359" h="155" zOrder="7">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Among+religious+sites%2C+it+is+worth+noting+the+beautiful+Istiklal+Mosque.+It+is+the+largest+mosque+in+South-East+Asia.+This+magnificent+mosque+is+located+on+Liberty+Square.+For+locals%2C+it+is+a+symbol+of+the+independence+of+their+country.+The+beautiful+mosque+is+interesting+not+only+as+a+religious+monument%2C+but+also+as+a+place+for+holding+various+cultural+events.+Many+tourists+are+recommended+to+inspect+the+mosque+in+the+evening%2C+when+its+facade+is+decorated+with+spectacular+lighting.+In+%E2%80%A6+Read+more</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="9C53172C-6939-4699-B318-838C856375E2" controlTypeID="TextArea" x="47" y="1413" w="355" h="155" zOrder="8">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>2.+Jewelry+should+be+purchased+in+major+shopping+centers+only.+Inexperienced+travelers+can+purchase+fake+gold+or+gold+of+a+lower+standard+in+the+city%E2%80%99s+markets.+3.+You+should+always+bargain+in+markets.+Sometimes+this+helps+to+reduce+the+price+in+several+times.+4.+The+system+of+public+transport+is+not+a+strong+point+of+the+city.+Therefore%2C+it+is+recommended+to+travel+by+taxi.+You+%E2%80%A6+Open</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="37374453-F1DE-4840-AE6B-AA3A60DAB7F2" controlTypeID="TextArea" x="495" y="1413" w="355" h="155" zOrder="9">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Those+fond+of+taking+walks+in+the+woods%2C+should+visit+the+Maribayya+forest.+Its+territory+is+full+of+very+interesting+walking+routes%2C+which+length+is+more+than+5+km.+It+starts+in+the+vicinity+of+Lembang+and+leads+to+Dago+waterfall.+On+the+way+you+can+see+many+rare+plants%2C+as+well+as+typical+inhabitants+of+the+local+forests.+Usually+the+walk+lasts+a+few+hours%2C+so+it+is+better+to+dedicate+the+entire+day.++Directly+in+the+city+there+is+also+a+number+of+important+excursion+sites%2C+including+the+%E2%80%A6+Read+more</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="022DF0CD-BF5B-4BFD-B663-AEDE3EF6D3EC" controlTypeID="Label" x="50" y="1172" w="111" h="24" zOrder="10">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Stylish+hotels</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="A2A09001-2F5F-42A1-B9EF-73A3922CE3E0" controlTypeID="Label" x="49" y="1381" w="173" h="24" zOrder="11">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Advices+for+travelers</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="E50A4072-75E1-47F1-AEB1-F622C4806333" controlTypeID="Label" x="495" y="1172" w="248" h="24" zOrder="12">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Shopping%2C+streets+and+outlets</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="B4EBE556-DDE9-4879-A2B5-AD0B5CEEBA49" controlTypeID="Label" x="495" y="1381" w="92" h="24" zOrder="13">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Landmarks</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="63D5E206-880C-4858-B9A0-CCDA41A5EDB9" controlTypeID="Shape" x="0" y="0" w="896" h="53" zOrder="14">
+              <color>4278203289</color>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <textColor>4278242559</textColor>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="8432E1AB-724D-42A3-BCAA-B2D786A15C4C" controlTypeID="TextInput" x="11" y="15" w="46" h="20" zOrder="15">
+              <caption>LOGO</caption>
+              <color>6737151</color>
+              <borderVisible>False</borderVisible>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Air-X</text>
+              <textColor>4294967295</textColor>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1975492B-48B9-4D1B-89FF-B8EC0FA6B8D5" controlTypeID="Image" x="0" y="42" w="905" h="487" zOrder="16">
+              <URL>12C4EFEC1F4A57873994BD8B89F7EC2A.jpg</URL>
+            </control>
+            <control controlID="4FCEAADF-150D-4B35-8229-70F8843FF2A0" controlTypeID="Panel" x="32" y="343" w="873" h="128" zOrder="17">
+              <color>4281742902</color>
+              <borderVisible>False</borderVisible>
+              <opacity>0.699999988079071</opacity>
+              <groupChildrenDescriptors>
+                <control controlID="B047795D-BF2D-48A3-A6B0-A327FBC188A0" controlTypeID="TextArea" x="8" y="10" w="217" h="56" zOrder="0">
+                  <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+                  <text>DESTINATION</text>
+                  <textColor>4294967295</textColor>
+                  <textSize>28</textSize>
+                  <useDefaultTextSize>False</useDefaultTextSize>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="21CFDF0F-2B33-4B88-9B00-9681B69004DB" controlTypeID="TextArea" x="8" y="66" w="655" h="66" zOrder="1">
+                  <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+                  <text>Sumatra%2C+Indonesia</text>
+                  <textColor>4294967295</textColor>
+                  <textSize>40</textSize>
+                  <useDefaultTextSize>False</useDefaultTextSize>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="8FFA2C02-41D5-438B-8562-56D2E4F865A5" controlTypeID="Border" x="0" y="0" w="873" h="128" zOrder="2">
+                  <borderVisible>False</borderVisible>
+                  <alias>borderLayer</alias>
+                </control>
+              </groupChildrenDescriptors>
+              <thinkness>1</thinkness>
+            </control>
+            <control controlID="78933677-C988-4B70-A7EC-D5AD973710D7" controlTypeID="VRule" x="62" y="10" w="12" h="35" zOrder="18"/>
+            <control controlID="58CF91AD-E4F8-4DA1-9AB0-CE9F9E258C24" controlTypeID="Tabs" x="75" y="10" w="364" h="35" zOrder="19">
+              <borderVisible>False</borderVisible>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="EBC67EC3-F502-410A-ABD9-80E1D02E5EF6" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+                  <area shape="0" alt="" ID="{A7DB882C-C542-4982-BFD7-38B033FEE0FD}" coords="(0,0,90,35)"/>
+                </link>
+                <link targetPageID="94D8A630-8A82-46FA-855B-D7FE0146282D" linkType="ltPageLink" isApplyIncludePage="False" title="Discover">
+                  <area shape="0" alt="" ID="{52EC11E1-BFB2-4D2E-8C67-A00A9E47F946}" coords="(91,0,181,35)"/>
+                </link>
+                <link targetPageID="FFCE7BFF-E36E-449A-9311-EB1541627FDA" linkType="ltPageLink" isApplyIncludePage="False" title="Book">
+                  <area shape="0" alt="" ID="{09A318DE-321A-4064-9BAB-462DB9A7E759}" coords="(182,0,272,35)"/>
+                </link>
+                <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="VIP+Club">
+                  <area shape="0" alt="" ID="{449FFE01-5847-4F99-B201-6F0CEDD64B7B}" coords="(273,0,363,35)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Home%2CDiscover%2CBook%2CVIP+Club</text>
+              <textColor>4294967295</textColor>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>2</selectedIndex>
+              <selectedColor>4294967295</selectedColor>
+              <selectedTextColor>4294967295</selectedTextColor>
+            </control>
+            <control controlID="249E03E2-EC3E-4525-91FA-37535C714B08" controlTypeID="AvatarEx2" x="847" y="8" w="31" h="31" zOrder="20">
+              <icon>
+                <ID/>
+                <iconFontName>jdiconfontB</iconFontName>
+                <iconCode>59652</iconCode>
+              </icon>
+              <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+            </control>
+            <control controlID="B3C278C5-0F08-4BED-8926-8A0AF2D861BF" controlTypeID="TextInput" x="792" y="10" w="56" h="30" zOrder="21">
+              <caption>LOGO</caption>
+              <color>4291611852</color>
+              <borderVisible>False</borderVisible>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Ridvan</text>
+              <textColor>4294967295</textColor>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="EE55511B-5D63-4468-A9EF-43E0497E557C" controlTypeID="VRule" x="786" y="9" w="12" h="33" zOrder="22"/>
+            <control controlID="0CBB7035-25D1-4423-B4A8-22C7A0AA4B0D" controlTypeID="TextInput" x="727" y="10" w="58" h="30" zOrder="23">
+              <caption>LOGO</caption>
+              <color>4278203289</color>
+              <borderVisible>False</borderVisible>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="EBC67EC3-F502-410A-ABD9-80E1D02E5EF6" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+                  <area shape="0" alt="" ID="{3E4E8480-4D33-415E-92C5-C2CF67ED23DB}" coords="(0,0,58,30)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Log+out</text>
+              <textColor>4294967295</textColor>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="2F98CDE1-3B07-451F-A7EF-7EAD2C687A46" controlTypeID="TextInput" x="692" y="357" w="144" h="32" zOrder="24">
+              <caption>LOGO</caption>
+              <color>4278203289</color>
+              <borderVisible>False</borderVisible>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="F8D97A7D-FC22-4022-9883-21756B91B18D" linkType="ltPageLink" isApplyIncludePage="False" title="Book+%232">
+                  <area shape="0" alt="" ID="{73351054-FDD4-4EBB-86C1-32CCD3A92816}" coords="(0,0,144,32)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI+Symbol" displayName="Segoe+UI+Symbol" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+              <text>Book+now</text>
+              <textColor>4294967295</textColor>
+              <textSize>18</textSize>
+              <textAlign>HaCenter</textAlign>
+              <lineSpacing>0</lineSpacing>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="5E71DF28-CF88-46C8-A32E-977E4581D3B1" controlTypeID="Border" x="0" y="0" w="899" h="885" zOrder="1">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <canHoriScroll>True</canHoriScroll>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

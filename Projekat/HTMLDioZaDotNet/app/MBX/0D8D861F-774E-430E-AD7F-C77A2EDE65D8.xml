@@ -1,0 +1,44 @@
+﻿<mockup version="5.2" minAllowVersion="5.2" ID="0D8D861F-774E-430E-AD7F-C77A2EDE65D8" platform="MtDesktop" defaultW="800" defaultH="885" measureW="723" measureH="442" mobileScreenScale="0">
+  <controls controlCount="6">
+    <control controlID="8BAB214A-5D2A-4AE3-9185-B4B058E40B2D" controlTypeID="Image" x="0" y="110" w="722" h="334" zOrder="0">
+      <rotationAngle>TdOneHundredEighty</rotationAngle>
+      <URL>91CC06E4A4ADDE23528924F8DB2D9C93.jpg</URL>
+    </control>
+    <control controlID="665B371B-CA04-478B-90FD-814153D2DF91" controlTypeID="VerticalTabBar" x="24" y="91" w="660" h="329" zOrder="1">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>PayPal%2CCredit+Card%2C+Voucher+Card%2C+Other</text>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="25EBCBFD-05A1-4F73-B61B-54420F22794D" controlTypeID="TextArea" x="24" y="25" w="163" h="56" zOrder="2">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>PAYMENT</text>
+      <textColor>4288256409</textColor>
+      <textSize>28</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4AE6403C-05E9-43B2-B26B-3A98E77D17AE" controlTypeID="HRule" x="166" y="38" w="557" h="12" zOrder="3"/>
+    <control controlID="753250E8-466A-4C83-ABBE-98ECBC169ED3" controlTypeID="Image" x="116" y="90" w="568" h="329" zOrder="4">
+      <URL>FF316EEA85BBF0BAF8FBED14F10124B0.png</URL>
+    </control>
+    <control controlID="D3EF224E-6BDC-4E98-884C-7B1784599BEB" controlTypeID="Button" x="614" y="30" w="70" h="28" zOrder="5">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2CCD7BD2-EED5-45F9-975E-9FC1C2BF1CDE" linkType="ltPageLink" isApplyIncludePage="False" title="Book+%233">
+          <area shape="0" alt="" ID="{23D24D10-C2FC-472A-8EC3-EEF2C4656769}" coords="(0,0,70,28)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Back</text>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

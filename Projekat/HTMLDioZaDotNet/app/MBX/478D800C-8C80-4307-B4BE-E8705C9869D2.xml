@@ -1,0 +1,278 @@
+﻿<mockup version="5.2" minAllowVersion="5.2" ID="478D800C-8C80-4307-B4BE-E8705C9869D2" platform="MtDesktop" defaultW="800" defaultH="885" measureW="899" measureH="885" mobileScreenScale="0">
+  <controls controlCount="35">
+    <control controlID="0C0346B3-30E8-4399-8F43-5637F8A43871" controlTypeID="ScrollView" x="0" y="0" w="899" h="885" zOrder="0">
+      <groupChildrenDescriptors>
+        <control controlID="38472E0F-0979-44BA-84A3-709B151008CD" controlTypeID="ScrollViewContentPanel" x="0" y="0" w="905" h="1732" zOrder="0">
+          <caption>Scroll+ViewPort</caption>
+          <alias>contentPanel</alias>
+          <groupChildrenDescriptors>
+            <control controlID="23CAC1D6-2421-41E0-8932-A697D7FF3F2C" controlTypeID="Image" x="0" y="2" w="900" h="600" zOrder="0">
+              <URL>8E0A47F6F5FDE7DC0CBB2219945D1B9E.jpg</URL>
+            </control>
+            <control controlID="2A5CC631-A199-4967-841B-D02613F7C109" controlTypeID="Image" x="47" y="701" w="359" h="109" zOrder="1">
+              <URL>E9B8FC244979A2155C78A7E436166599.jpg</URL>
+            </control>
+            <control controlID="E8DD6F7A-F5DC-4AA7-9D90-853191E3318D" controlTypeID="Label" x="294" y="632" w="312" h="38" zOrder="2">
+              <caption>Top+sigths+of+United+Arab+Emirates</caption>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Top+sigths+in+Abu+Dhabi</text>
+              <textSize>28</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="0E955271-18F8-4445-9023-5ED0248CA03A" controlTypeID="Panel" x="32" y="343" w="873" h="128" zOrder="3">
+              <color>4281742902</color>
+              <borderVisible>False</borderVisible>
+              <opacity>0.699999988079071</opacity>
+              <groupChildrenDescriptors>
+                <control controlID="27AEC600-B7BD-4714-8602-2281588E79BD" controlTypeID="TextArea" x="8" y="10" w="217" h="56" zOrder="0">
+                  <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+                  <text>DESTINATION</text>
+                  <textColor>4294967295</textColor>
+                  <textSize>28</textSize>
+                  <useDefaultTextSize>False</useDefaultTextSize>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="AC1D9B96-835F-453C-9943-51292819B73A" controlTypeID="TextArea" x="8" y="66" w="655" h="66" zOrder="1">
+                  <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+                  <text>Abu+Dhabi%2C+United+Arab+Emirates%0D%0A</text>
+                  <textColor>4294967295</textColor>
+                  <textSize>40</textSize>
+                  <useDefaultTextSize>False</useDefaultTextSize>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="0EE68868-1008-4665-8A64-919073E64208" controlTypeID="Border" x="0" y="0" w="873" h="128" zOrder="2">
+                  <borderVisible>False</borderVisible>
+                  <alias>borderLayer</alias>
+                </control>
+              </groupChildrenDescriptors>
+              <thinkness>1</thinkness>
+            </control>
+            <control controlID="874D5E51-FB26-48B2-80F7-E640F1502D6C" controlTypeID="TextArea" x="426" y="701" w="428" h="113" zOrder="4">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>The+United+Arab+Emirates+remain+one+of+the+most+famous+and+popular+resort+destinations+in+the+world.+The+country+welcomes+guests+all+year+round.+Each+from+the+7+Emirates+is+famous+for+its+own+landmarks%2C+excursions+and+entertainment.+One+can+see+the+Arabian+culture+in+its+full+splendor+during+a+visit+to+Abu+Dhabi%2C+the+capital+of+the+country.+The+city+simply+amazes+travelers+with+its+lush+greenery.+Here%2C+among+beautiful+parks%2C+you+will+see+luxury+palaces%2C+old+forts%2C+modern+skyscrapers+and+entertainment+centres.+%E2%80%A6+Open.%0D%0A</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="C931BF3B-5131-4F1D-8FF8-7550EEC5F2BE" controlTypeID="Label" x="47" y="866" w="94" h="38" zOrder="5">
+              <caption>Top+sigths+of+United+Arab+Emirates</caption>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Images+</text>
+              <textSize>28</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="D9EF033B-9D7C-42A3-A4F6-15FC5458A32B" controlTypeID="ImageCarousel" x="47" y="914" w="807" h="284" zOrder="6">
+              <groupChildrenDescriptors>
+                <control controlID="631F32C7-E229-4D4F-9E32-D703FE1D62EA" controlTypeID="ImageBackground" x="0" y="0" w="807" h="284" zOrder="0">
+                  <caption>abu-dhabi--782066-5</caption>
+                  <groupChildrenDescriptors/>
+                  <URL>0929137073EB378A588DB2768F7D2755.png</URL>
+                </control>
+                <control controlID="ADDD59F8-3D80-4D26-9487-4DDBF2FD6F0E" controlTypeID="ImageBackground" x="0" y="0" w="807" h="284" zOrder="1">
+                  <caption>abu-dhabi--782066-6</caption>
+                  <groupChildrenDescriptors/>
+                  <URL>DC7C2111BF5225802365F5A8C6748DEE.png</URL>
+                </control>
+                <control controlID="627F2758-7017-419A-B097-E1F78351B082" controlTypeID="ImageBackground" x="0" y="0" w="807" h="284" zOrder="2">
+                  <caption>abu-dhabi--782066-3</caption>
+                  <groupChildrenDescriptors/>
+                  <URL>64513145C5D8E1F8FBB27D72CF22C867.png</URL>
+                </control>
+                <control controlID="898B8F6D-C251-4FA3-AE5B-F6C39B71FE44" controlTypeID="ImageBackground" x="0" y="0" w="807" h="284" zOrder="3">
+                  <caption>abu-dhabi--782066-4</caption>
+                  <groupChildrenDescriptors/>
+                  <URL>7B2A3237BCEB86E5DE9CE001D84EBD5D.png</URL>
+                </control>
+              </groupChildrenDescriptors>
+              <selectedIndex>3</selectedIndex>
+            </control>
+            <control controlID="33CE7A84-B0C9-4ABE-8A3C-4FBD9BB7D038" controlTypeID="Label" x="217" y="1239" w="466" h="38" zOrder="7">
+              <caption>Top+sigths+of+United+Arab+Emirates</caption>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Chapters+of+the+guide+to+Abu+Dhabi</text>
+              <textSize>28</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="4395B202-598D-47C6-8D08-04257A1C6724" controlTypeID="TextArea" x="47" y="1332" w="353" h="155" zOrder="8">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Stylish+interior+is+a+feature+of+the+fashionable+hotel+Anantara+Eastern+Mangroves.+Designers+took+into+account+the+brightest+national+traditions+of+the+region.+High+arched+openings+and+translucent+screens+of+wood%2C+carpets+and+flooring+with+elaborate+patterns%2C+huge+chandeliers+with+lots+of+rhinestones%2C+crystal+and+glass+make+the+atmosphere+luxurious+and+refined.+Rooms+are+designed+in+warm+colors+complemented+by+lovely+%E2%80%A6+Open</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="5D90C33E-3557-4D27-B832-1F652D6F496A" controlTypeID="TextArea" x="495" y="1332" w="359" h="155" zOrder="9">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>One+of+the+largest+and+most+beautiful+shopping+centers+in+the+city+is+Marina+Mall%2C+where+you+can+buy+not+only+stylish+modern+clothes%2C+but+also+household+goods.+Here%2C+is+one+of+the+largest+Ikea+stores+in+the+city.+Fashionistas+can+stroll+through+exclusive+designer+salons.+This+shopping+and+entertainment+complex+houses+a+modern+cinema%2C+several+dozen+restaurants%2C+and+many+more+attractions+and+playgrounds+for+children.+%E2%80%A6+Open+</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="43F9AD13-AFE5-4144-9CD1-79B4E24EDE05" controlTypeID="TextArea" x="47" y="1540" w="355" h="155" zOrder="10">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>2.+Jewelry+should+be+purchased+in+major+shopping+centers+only.+Inexperienced+travelers+can+purchase+fake+gold+or+gold+of+a+lower+standard+in+the+city%E2%80%99s+markets.+3.+You+should+always+bargain+in+markets.+Sometimes+this+helps+to+reduce+the+price+in+several+times.+4.+The+system+of+public+transport+is+not+a+strong+point+of+the+city.+Therefore%2C+it+is+recommended+to+travel+by+taxi.+You+%E2%80%A6+Open</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="87AAB350-E90F-4CE2-8832-A7D51CF6ED36" controlTypeID="TextArea" x="495" y="1540" w="355" h="155" zOrder="11">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>The+fans+of+thrill+and+adrenaline%2C+as+a+rule%2C+choose+the+motorsports.+After+visiting+one+of+the+racing+tracks%2C+you+can+feel+a+huge+excitement+and+enjoy+a+fast+ride%2C+feeling+at+the+same+time+absolutely+protected+due+to+the+excellent+quality+of+the+trails%2C+modern+vehicles%2C+and+a+thoughtful+security+system.+One+of+the+best+complexes+is+located+in+a+10-minute+drive+from+Abu+Dhabi+International+Airport%2C+in+the+Al+Forsan+%E2%80%A6+Open+</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="415B949A-1E78-4F6E-9F6A-6E20294D9221" controlTypeID="Label" x="50" y="1299" w="111" h="24" zOrder="12">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Stylish+hotels</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="2EFD3F1D-AD64-4F85-970C-910A397FF836" controlTypeID="Label" x="49" y="1508" w="173" h="24" zOrder="13">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Advices+for+travelers</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="117F4F9E-1D0D-4213-8FF2-63CBF005B53D" controlTypeID="Label" x="495" y="1299" w="248" h="24" zOrder="14">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Shopping%2C+streets+and+outlets</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="EEE840E5-9EE6-448E-89D5-9295C34D4085" controlTypeID="Label" x="495" y="1508" w="92" h="24" zOrder="15">
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Landmarks</text>
+              <textSize>18</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="615EC27D-9992-43B5-B1F3-5772E1828F7D" controlTypeID="Shape" x="0" y="0" w="884" h="53" zOrder="16">
+              <color>4278203289</color>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <textColor>4278242559</textColor>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="7400BC66-8F42-4720-A088-E18A6818D921" controlTypeID="TextInput" x="11" y="15" w="45" h="20" zOrder="17">
+              <caption>LOGO</caption>
+              <color>6737151</color>
+              <borderVisible>False</borderVisible>
+              <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+              <text>Air-X</text>
+              <textColor>4294967295</textColor>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <textStyles>[fsBold]</textStyles>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="EBB13843-81CD-4CB4-AF17-93DA8E125627" controlTypeID="VRule" x="61" y="10" w="12" h="35" zOrder="18"/>
+            <control controlID="723B8082-F0C1-41F1-A5E4-73AEEFEFAA21" controlTypeID="Tabs" x="74" y="10" w="359" h="35" zOrder="19">
+              <borderVisible>False</borderVisible>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="EBC67EC3-F502-410A-ABD9-80E1D02E5EF6" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+                  <area shape="0" alt="" ID="{A7DB882C-C542-4982-BFD7-38B033FEE0FD}" coords="(0,0,88.75,35)"/>
+                </link>
+                <link targetPageID="94D8A630-8A82-46FA-855B-D7FE0146282D" linkType="ltPageLink" isApplyIncludePage="False" title="Discover">
+                  <area shape="0" alt="" ID="{52EC11E1-BFB2-4D2E-8C67-A00A9E47F946}" coords="(89.75,0,178.5,35)"/>
+                </link>
+                <link targetPageID="FFCE7BFF-E36E-449A-9311-EB1541627FDA" linkType="ltPageLink" isApplyIncludePage="False" title="Book">
+                  <area shape="0" alt="" ID="{09A318DE-321A-4064-9BAB-462DB9A7E759}" coords="(179.5,0,268.25,35)"/>
+                </link>
+                <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="VIP+Club">
+                  <area shape="0" alt="" ID="{449FFE01-5847-4F99-B201-6F0CEDD64B7B}" coords="(269.25,0,358,35)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Home%2CDiscover%2CBook%2CVIP+Club</text>
+              <textColor>4294967295</textColor>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>2</selectedIndex>
+              <selectedColor>4294967295</selectedColor>
+              <selectedTextColor>4294967295</selectedTextColor>
+            </control>
+            <control controlID="A3CB5979-C5BD-4840-BF60-C8DAF84CDF45" controlTypeID="AvatarEx2" x="836" y="8" w="31" h="31" zOrder="20">
+              <icon>
+                <ID/>
+                <iconFontName>jdiconfontB</iconFontName>
+                <iconCode>59652</iconCode>
+              </icon>
+              <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+            </control>
+            <control controlID="2E46E83D-27D1-4077-B703-C04861FE4C86" controlTypeID="TextInput" x="781" y="10" w="55" h="30" zOrder="21">
+              <caption>LOGO</caption>
+              <color>4291611852</color>
+              <borderVisible>False</borderVisible>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Ridvan</text>
+              <textColor>4294967295</textColor>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="08E5B39A-A4D6-47F8-A1B8-4BAC200CFB58" controlTypeID="VRule" x="775" y="9" w="12" h="33" zOrder="22"/>
+            <control controlID="1859B1BE-767C-43BF-B0F3-EAB1229A98D3" controlTypeID="TextInput" x="717" y="10" w="57" h="30" zOrder="23">
+              <caption>LOGO</caption>
+              <color>4278203289</color>
+              <borderVisible>False</borderVisible>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="EBC67EC3-F502-410A-ABD9-80E1D02E5EF6" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+                  <area shape="0" alt="" ID="{F02C6A50-44A1-4F86-BB3B-B59A03660348}" coords="(0,0,57,30)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Log+out</text>
+              <textColor>4294967295</textColor>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1937D83B-4105-43FB-BB7A-3978143DA812" controlTypeID="TextInput" x="692" y="357" w="144" h="32" zOrder="24">
+              <caption>LOGO</caption>
+              <color>4278203289</color>
+              <borderVisible>False</borderVisible>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="F8D97A7D-FC22-4022-9883-21756B91B18D" linkType="ltPageLink" isApplyIncludePage="False" title="Book+%232">
+                  <area shape="0" alt="" ID="{73351054-FDD4-4EBB-86C1-32CCD3A92816}" coords="(0,0,144,32)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI+Symbol" displayName="Segoe+UI+Symbol" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+              <text>Book+now</text>
+              <textColor>4294967295</textColor>
+              <textSize>18</textSize>
+              <textAlign>HaCenter</textAlign>
+              <lineSpacing>0</lineSpacing>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="7287FC4C-AE61-4082-B0B5-3D4D42407E6E" controlTypeID="Border" x="0" y="0" w="899" h="885" zOrder="1">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <canHoriScroll>True</canHoriScroll>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

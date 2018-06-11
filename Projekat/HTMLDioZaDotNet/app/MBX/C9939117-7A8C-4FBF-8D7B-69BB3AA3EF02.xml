@@ -1,0 +1,147 @@
+﻿<mockup version="5.2" minAllowVersion="5.2" ID="C9939117-7A8C-4FBF-8D7B-69BB3AA3EF02" platform="MtDesktop" defaultW="800" defaultH="885" measureW="800" measureH="725" mobileScreenScale="0">
+  <controls controlCount="17">
+    <control controlID="30DC8C71-E459-4A1D-BBAA-53FBB4E8341A" controlTypeID="Shape" x="0" y="0" w="800" h="42" zOrder="0">
+      <color>4278203289</color>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textColor>4278242559</textColor>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D1C635A8-CF3A-4AF2-A821-76B1F747FB37" controlTypeID="TextInput" x="10" y="12" w="41" h="16" zOrder="1">
+      <caption>LOGO</caption>
+      <color>6737151</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>Air-X</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4E696077-283F-4B1E-ACCB-CC0746A5A578" controlTypeID="VRule" x="55" y="8" w="12" h="28" zOrder="2"/>
+    <control controlID="ACC03E39-B9D5-4DEE-A3F0-6FA130A32C1E" controlTypeID="Tabs" x="67" y="8" w="325" h="28" zOrder="3">
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="EBC67EC3-F502-410A-ABD9-80E1D02E5EF6" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+          <area shape="0" alt="" ID="{B6FD983B-843E-475C-8CBF-95690DBBA9FF}" coords="(0,0,80.25,28)"/>
+        </link>
+        <link targetPageID="94D8A630-8A82-46FA-855B-D7FE0146282D" linkType="ltPageLink" isApplyIncludePage="False" title="Discover">
+          <area shape="0" alt="" ID="{FBFB8137-DD52-4FDE-B1DD-CD3F72F2549A}" coords="(81.25,0,161.5,28)"/>
+        </link>
+        <link targetPageID="FFCE7BFF-E36E-449A-9311-EB1541627FDA" linkType="ltPageLink" isApplyIncludePage="False" title="Book">
+          <area shape="0" alt="" ID="{9B737AAA-D5D3-4A96-857B-FD104D3434FA}" coords="(162.5,0,242.75,28)"/>
+        </link>
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="VIP+Club">
+          <area shape="0" alt="" ID="{E639FA94-7425-4420-B022-243BF4CF2B12}" coords="(243.75,0,324,28)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Home%2CDiscover%2CBook%2CVIP+Club</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>2</selectedIndex>
+      <selectedColor>4278203289</selectedColor>
+      <selectedTextColor>4294967295</selectedTextColor>
+    </control>
+    <control controlID="540A0B45-8CE4-46CA-95F3-6FA0FCC34357" controlTypeID="AvatarEx2" x="757" y="6" w="28" h="28" zOrder="4">
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59652</iconCode>
+      </icon>
+      <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+    </control>
+    <control controlID="DD5600DA-1878-4DA2-9591-4465D35ED21D" controlTypeID="TextInput" x="707" y="8" w="50" h="24" zOrder="5">
+      <caption>LOGO</caption>
+      <color>4291611852</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Ridvan</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="995AFAC8-FCFF-41B1-B85A-65F63C000F1C" controlTypeID="VRule" x="701" y="7" w="12" h="26" zOrder="6"/>
+    <control controlID="3008D569-ED8A-4F6C-9F9B-C64C2F33FCA7" controlTypeID="TextInput" x="649" y="8" w="52" h="24" zOrder="7">
+      <caption>LOGO</caption>
+      <color>4278203289</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="EBC67EC3-F502-410A-ABD9-80E1D02E5EF6" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+          <area shape="0" alt="" ID="{A45BC18C-DC90-4575-AF20-E83A553F1A64}" coords="(0,0,52,24)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Log+out</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="485BE283-2B37-42A9-B73F-7577950CC650" controlTypeID="Image" x="-1" y="42" w="800" h="353" zOrder="8">
+      <URL>91CC06E4A4ADDE23528924F8DB2D9C93.jpg</URL>
+    </control>
+    <control controlID="C1F06061-8A3C-4C2D-8B89-A322FB37547D" controlTypeID="AvatarEx2" x="34" y="65" w="158" h="158" zOrder="9">
+      <avatarType>Secret</avatarType>
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59648</iconCode>
+      </icon>
+      <URL>42CF9E031360EBC09387427849BF6328.svg</URL>
+    </control>
+    <control controlID="C16AE23E-3A88-425A-A1B5-6BC9AF2BF576" controlTypeID="TextArea" x="221" y="65" w="245" h="48" zOrder="10">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>OOADMASTER</text>
+      <textColor>4284900966</textColor>
+      <textSize>28</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="822C40E9-A8EB-426D-AA49-7D360DDE2E88" controlTypeID="Icon" x="742" y="77" w="24" h="24" zOrder="11">
+      <icon>
+        <ID/>
+        <iconFontName>jdFontCustom</iconFontName>
+        <iconCode>61714</iconCode>
+      </icon>
+      <URL>6E212E13686990BA94EAFA44044516B4.svg</URL>
+    </control>
+    <control controlID="48D025C2-9976-483A-BC94-F7BC2CBC080D" controlTypeID="Tabs" x="34" y="265" w="732" h="48" zOrder="12">
+      <font family="Segoe+UI+Semibold" displayName="Segoe+UI+Semibold" postScript="" weightStyle="Regular" weight="600" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Your+schedule%2CNotifications%2CFlights+%26+Stats%2CSettings</text>
+      <textColor>4278203238</textColor>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedColor>4278203289</selectedColor>
+      <selectedTextColor>4278203289</selectedTextColor>
+    </control>
+    <control controlID="C281B5B0-DE86-4D42-A5F4-D6BD58D6A373" controlTypeID="Icon" x="368" y="279" w="24" h="24" zOrder="13">
+      <color>4284927231</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62299</iconCode>
+      </icon>
+      <URL>807B9BF23EE1023139B925F62B0D2029.svg</URL>
+    </control>
+    <control controlID="51A9F56D-75E8-4538-BDDD-2FD72C9FDA17" controlTypeID="TextArea" x="221" y="107" w="480" h="130" zOrder="14">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>OOADMASTER</text>
+      <textColor>4284900966</textColor>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="ACF6FDBC-7708-45E3-8A0A-DEB4CA24FDB7" controlTypeID="Image" x="34" y="317" w="718" h="348" zOrder="15">
+      <URL>AC7F5A9D75AF072DDD70DAB91F772405.png</URL>
+    </control>
+    <control controlID="0880D3EC-B7F4-48A0-A348-778BA75E71F3" controlTypeID="VerticalScrollbar" x="752" y="317" w="14" h="348" zOrder="16"/>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
